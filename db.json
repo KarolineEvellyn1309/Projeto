@@ -1,0 +1,12 @@
+{
+  "products": [
+    { "id": 1, "name": "Iphone 11 Pro", "price": 500, "image": "iphone11pro.webp" },
+    { "id": 2, "name": "Air Pods Max", "price": 900, "image": "airpodsmax.webp" },
+    { "id": 3, "name": "Ipad Air", "price": 3000, "image": "ipadair10,9.webp" },
+    { "id": 4, "name": "Ipad Mini 4", "price": 2000, "image": "ipadmini4.webp" },
+    { "id": 5, "name": "Ipad Pro", "price": 4000, "image": "ipadpro12,9.webp" },
+    { "id": 6, "name": "Iphone 6s", "price": 1700, "image": "iphone6sfrente.webp" },
+    { "id": 7, "name": "Iphone Xs", "price": 2000, "image": "iphonexs.webp" },
+    { "id": 8, "name": "Iphone 15 Pro", "price": 7000, "image": "iphone15pro.webp" }
+  ]
+}

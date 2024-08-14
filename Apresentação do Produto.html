@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title> Apresentação do produto </title>
+</head>
+<style>
+  .produto {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .produto img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .info-produto {
+    margin-left: 50px;
+  }
+
+  .info-produto h1 {
+    font-size: 28px;
+  }
+
+  .info-produto p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .info-produto h2 {
+    font-size: 24px;
+    color: #e84a4a;
+  }
+
+  .quantidade {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .quantidade label {
+    margin-right: 10px;
+  }
+
+  .adicionar-carrinho {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .adicionar-carrinho:hover {
+    background-color: rgb(37, 36, 36);
+  }
+  .text {
+    color: rgb(230, 54, 54);
+  }
+  .text-muted {
+    color: #6d7379;
+  }
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand text-light" href="#">Apple Shop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#"> Ofertas <span class="sr-only"> Ofertas</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" class="text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ordenar por:
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"> Menores Preços </a>
+            <a class="dropdown-item" href="#"> Mais Vendidos</a>
+            <a class="dropdown-item" href="#"> Melhores Avaliações </a>
+          </div>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Listagem de Produtos.html"> Voltar </a>
+            </li>
+          </ul>
+          <form class="form-inline my-0 my-lg-0">
+            <input class="form-control mr-sm-0" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0 bg-dark text-light" type="submit">Pesquisar</button>
+          </form>
+        </div>
+    </nav>
+  <div class="produto">
+    <img src="Apresentação do produto/iphone11pro.webp" alt="Imagem do produto">
+    <div class="info-produto">
+    <h1>Iphone 11 Pro</h1>
+    <p>Iphone 11 Pro lacrado IOS</p>
+    <h2>R$ 4000</h2>
+    <p>Detalhes do produto:<br>- Tamanho: 5,8" <br>- Cor: Branco <br>- Armazenamento interno: 512GB</p>
+    <div class="quantidade">
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+    </div>
+    <a href="Carrinho.html">
+      <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+    </a>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Avaliações</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>★★★★★</h5>
+        <p class="text"> Karoline Evellyn</p>
+        <p>Amei meu novo iphone, ele é lindo e a bateria dura o dia inteiro!!</p>
+        <p class="text-muted">Postado em 13/09/2023</p>
+      </div>
+      <div class="col-md-6">
+        <h5>★★★★★</h5>
+        <p class="text"> Gabriel Barbosa</p>
+        <p>Incrível! a câmera é impecável e o tamanho dele é perfeito. Adoreei</p>
+        <p class="text-muted">Postado em 13/08/2023</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>★★★★★</h5>
+        <p class="text"> Lisbella Andreazzi</p>
+        <p>Estou apaixonada! amei demais, podem comprar sem medo.</p>
+        <p class="text-muted">Postado em 17/08/2023</p>
+      </div>
+      <div class="col-md-6">
+        <h5>★★★★</h5>
+        <p class="text"> Gerson Santos </p>
+        <p>Gostei do produto, nada a reclamar em relação a ele. Mas a entrega demorou muito</p>
+        <p class="text-muted">Postado em 17/08/2023</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>★★★</h5>
+        <p class="text"> Sofia Valim </p>
+        <p>Gostei mas esperava mais. Depois de 1 mês começou a descarregar mais rápido </p>
+        <p class="text-muted">Postado em 06/08/2022</p>
+      </div>
+      <div class="col-md-6">
+        <h5>★★</h5>
+        <p class="text"> Antonella Morais </p>
+        <p>Esperei dois meses para chegar e veio a cor errada. Não gostei</p>
+        <p class="text-muted">Postado em 06/08/2022</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-3eT2Ay5ZBWv5RRZdwE/SLZGtr3z2FwoNf9Bktj2rsw4x21D4Ty7b3eLxlFfJWJZ" crossorigin="anonymous"></script>
+
+  <script>
+   getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+  
+  function fetchProduct(id) {
+    return fetch(`http://localhost:3000/products/${id}`)
+      .then(response => response.json());
+  }
+  
+  function fetchAllProducts() {
+    return fetch('http://localhost:3000/products')
+      .then(response => response.json());
+  }
+  
+  function displayProductDetails(product) {
+    document.getElementById('produto-imagem').src = `Listagem de Produtos/${product.image}`;
+    document.getElementById('produto-nome').textContent = product.name;
+    document.getElementById('produto-descricao').textContent = product.description;
+    document.getElementById('produto-preco').textContent = `R$ ${product.price}`;
+    document.getElementById('produto-detalhes').innerHTML = `Detalhes do produto:<br>- Tamanho: ${product.size} <br>- Cor: ${product.color} <br>- Armazenamento interno: ${product.storage}`;
+  }
+  
+  function displayProductReviews(reviews) {
+    const avaliacoesDiv = document.getElementById('avaliacoes');
+    avaliacoesDiv.innerHTML = '';
+  
+    reviews.forEach(review => {
+      const reviewHTML = `
+        <div class="col-md-6">
+          <h5>${'★'.repeat(review.rating)}</h5>
+          <p class="text">${review.author}</p>
+          <p>${review.comment}</p>
+          <p class="text-muted">Postado em ${new Date(review.date).toLocaleDateString()}</p>
+        </div>
+      `;
+      avaliacoesDiv.innerHTML += reviewHTML;
+    });
+  }
+  
+  function displayOtherProducts(products) {
+    const outrosProdutosDiv = document.getElementById('outros-produtos');
+    outrosProdutosDiv.innerHTML = '';
+  
+    products.forEach(product => {
+      const productHTML = `
+        <div class="col-md-4">
+          <a href="Apresentação do Produto.html?id=${product.id}">
+            <img-elemento src="Listagem de Produtos/${product.image}" alt="${product.name}" class="img-fluid"></img-elemento>
+          </a>
+          <p>${product.name}</p>
+          <p>R$ ${product.price}</p>
+        </div>
+      `;
+      outrosProdutosDiv.innerHTML += productHTML;
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const productId = getQueryParam('id');
+  
+    fetchProduct(productId)
+      .then(product => {
+        displayProductDetails(product);
+        
+        if (product.reviews) {
+          displayProductReviews(product.reviews);
+        }
+        return fetchAllProducts();
+      })
+      .then(allProducts => {
+        const otherProducts = allProducts.filter(product => product.id !== productId);
+        displayOtherProducts(otherProducts);
+      })
+      .catch(error => console.error('Erro ao carregar produtos:', error));
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const productId = urlParams.get('id');
+
+  if (!productId) {
+    console.error('ID do produto não encontrado na URL');
+    return;
+  }
+
+  // Função para formatar a data
+  function formatDate(dateString) {
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return new Date(dateString).toLocaleDateString(undefined, options);
+  }
+
+  // Carregar detalhes do produto
+  fetch(`http://localhost:3000/products/${productId}`)
+    .then(response => response.json())
+    .then(product => {
+      // Atualizar os detalhes do produto na página
+      document.querySelector('.produto img').src = `Listagem de Produtos/${product.image}`;
+      document.querySelector('.produto img').alt = product.name;
+      document.querySelector('.info-produto h1').textContent = product.name;
+      document.querySelector('.info-produto p').textContent = product.description;
+      document.querySelector('.info-produto h2').textContent = `R$ ${product.price}`;
+      document.querySelector('.info-produto p').innerHTML += `
+        Detalhes do produto:<br>
+        - Tamanho: ${product.size}<br>
+        - Cor: ${product.color}<br>
+        - Armazenamento interno: ${product.storage}
+      `;
+      
+      // Carregar avaliações do produto
+      fetch(`http://localhost:3000/reviews?productId=${productId}`)
+        .then(response => response.json())
+        .then(reviews => {
+          const reviewsContainer = document.querySelector('.container');
+          reviewsContainer.innerHTML += '<h2>Avaliações</h2><div class="row">';
+
+          reviews.forEach(review => {
+            const reviewHTML = `
+              <div class="col-md-6">
+                <h5>${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</h5>
+                <p class="text">${review.author}</p>
+                <p>${review.comment}</p>
+                <p class="text-muted">Postado em ${formatDate(review.date)}</p>
+              </div>
+            `;
+            reviewsContainer.innerHTML += reviewHTML;
+          });
+
+          reviewsContainer.innerHTML += '</div>';
+        })
+        .catch(error => console.error('Erro ao buscar avaliações:', error));
+    })
+    .catch(error => console.error('Erro ao buscar produto:', error));
+});
+
+</script>
+  
+</body>
+</html>
+

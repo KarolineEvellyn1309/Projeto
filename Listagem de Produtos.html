@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="img-elemento.js" defer></script>
+
+  <title> Listagem de produtos </title>
+</head>
+<style>
+  body {
+    padding-top: 20px;
+  }
+
+  .photo {
+    margin-bottom: 20px;
+  }
+
+  .photo img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+    z-index: 1000;
+  }
+ 
+</style>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand text-light" href="#">Apple Shop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="#"> Ofertas <span class="sr-only"> Ofertas</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-light" href="#" class="text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ordenar por:
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"> Menores Preços </a>
+            <a class="dropdown-item" href="#"> Mais Vendidos</a>
+            <a class="dropdown-item" href="#"> Melhores Avaliações </a>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="Pagina Incial.html"> Voltar Página Inicial</a>
+      </li>
+    </ul>
+    <form class="form-inline my-0 my-lg-0">
+      <input class="form-control mr-sm-0" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-0 bg-dark text-light" type="submit">Pesquisar</button>
+    </form>
+  </div>
+  </nav>
+  <div class="container mt-5">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" id="categorias-tab" data-bs-toggle="tab" href="#categorias">Categorias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="cores-tab" data-bs-toggle="tab" href="#cores">Cores</a>
+      </li>
+    </ul>
+    <div class="tab-content mt-2">
+      <div class="tab-pane fade show active" id="categorias">
+        <h4>Selecione a Categoria:</h4>
+        <select class="form-select">
+          <option value="categoria1">Iphone</option>
+          <option value="categoria2">Ipad</option>
+          <option value="categoria3">Air pod</option>
+        </select>
+      </div>
+      <div class="tab-pane fade" id="cores">
+        <h4>Selecione a Cor:</h4>
+          <select class="form-select">
+            <option value="cor1">Preto</option>
+            <option value="cor2">Branco</option>
+            <option value="cor3">Cinza</option>
+            <option value="cor4">Vermelho</option>
+            <option value="cor5">Azul</option>
+            <option value="cor6">Rosa</option>
+            <option value="cor7">Roxo</option>
+          </select>
+      </div>
+    </div>
+  <div class="photo img">
+    <div class="row">
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/iphone11pro.webp" alt="Foto 1" class="img-fluid">
+        </a>
+        <strong class="caption">$500 Air Pod Pro</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Listagem de Produtos.html">
+          <img-elemento src="Listagem de Produtos/airpodsmax" alt="Foto 2" class="img-fluid">
+        </a>
+        <strong class="caption"> $900 Air Pods Max</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/airpodpro" alt="Foto 3" class="img-fluid">
+        </a>
+        <strong class="caption">$800 Air Pods</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/ipadair10,9" alt="Foto 4" class="img-fluid">
+        </a>
+        <strong class="caption">$3000 ipad Air</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/ipadmini4.webp" alt="Foto 5" class="img-fluid">
+        </a>
+        <strong class="caption">$2000 Ipad Mini 4</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/ipadpro12,9" alt="Foto 6" class="img-fluid">
+        </a>
+        <strong class="caption">$4000 Ipad Pro</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/iphone6sfrente" alt="Foto 7" class="img-fluid">
+        </a>
+        <strong class="caption"> $1700 Iphone 6s</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/iphonexs" alt="Foto 8" class="img-fluid">
+        </a>
+        <strong class="caption"> $2000 Iphone Xs</strong>
+      </div>
+      <div class="col-md-4 photo">
+        <a href="Apresentação do Produto.html">
+          <img-elemento src="Listagem de Produtos/iphone15pro" alt="Foto 9" class="img-fluid">
+        </a>
+        <strong class="caption">$7000 Iphone 15 Pro</strong>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <button type="button" class="btn btn-secondary">Carregar mais produtos</button>
+  </div>
+   
+  <script src="ima-elemento.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault(); 
+
+    const searchQuery = document.querySelector('input[type="search"]').value.toLowerCase();
+
+    fetch('http://localhost:3000/products')
+      .then(response => response.json())
+      .then(products => {
+        const filteredProducts = products.filter(product =>
+          product.name.toLowerCase().includes(searchQuery)
+        );
+
+        displayProducts(filteredProducts);
+      })
+      .catch(error => console.error('Erro ao buscar produtos:', error));
+  });
+
+  function displayProducts(products) {
+    const photoContainer = document.querySelector('.photo.img');
+    photoContainer.innerHTML = ''; 
+
+    products.forEach(product => {
+        const productHTML = `
+            <div class="col-md-4 photo">
+                <img-elemento src="Listagem de Produtos/${product.image}" alt="${product.name}" id="${product.id}" class="img-fluid"></img-elemento>
+                <strong class="caption">$${product.price} ${product.name}</strong>
+            </div>
+        `;
+        photoContainer.innerHTML += productHTML;
+    });
+}
+</script>
+  
+</body>
+</html>
+    
